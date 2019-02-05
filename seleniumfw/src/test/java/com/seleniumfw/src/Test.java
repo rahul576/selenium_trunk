@@ -1,4 +1,4 @@
-package com.selenium999.seleniumfw.src;
+package com.seleniumfw.src;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
