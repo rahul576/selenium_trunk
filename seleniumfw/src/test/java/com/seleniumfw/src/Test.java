@@ -13,6 +13,7 @@ public class Test {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getPageSource());
+		
 		driver.getTitle();
 		driver.getCurrentUrl();
 		driver.getPageSource();
