@@ -1,4 +1,4 @@
-package com.seleniumfw.src;
+package core;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

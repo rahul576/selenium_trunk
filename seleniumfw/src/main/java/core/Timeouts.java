@@ -1,4 +1,4 @@
-package com.seleniumfw.src;
+package core;
 
 public interface Timeouts {
 	

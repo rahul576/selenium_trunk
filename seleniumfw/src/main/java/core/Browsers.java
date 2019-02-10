@@ -1,4 +1,4 @@
-package com.seleniumfw.src;
+package core;
 
 public interface Browsers {
 	String CHROME_BROWSER = "CHROME_BROWSER";
