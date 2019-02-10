@@ -5,17 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class CommonLib implements Browsers,Timeouts{
-	
+	//init 
 	public static final String BROWSER = CHROME_BROWSER;
-	public static final String OS;
-	public static final int DEFAULT_OBJECT_WAIT_TIME = 60;
 	public static final String CHROME_EXE_PATH ="";
 	public static final String FIREFOX_EXE_PATH = "";
 	public final String IE_EXE_PATH="" ;
 	public static WebDriver driver;
-	static {
-		OS = getOperatingSystem();
-	}
+
 	
 	public static void init() {
 		if (driver==null) {
@@ -31,7 +27,7 @@ public class CommonLib implements Browsers,Timeouts{
 		String xpath = "//a[contains(text(),'" + linkVisibleText + "')]";
 		String xpath1 = "//a[text()[contains(.," + linkVisibleText + ")]]";
 		driver.findElement(By.linkText(linkVisibleText));
-		//kjhj
+		
 	}
    public static void javaScriptExecutor(String javaScript, String xpath) {
 	   javaScriptExecutor(javaScript, xpath);
